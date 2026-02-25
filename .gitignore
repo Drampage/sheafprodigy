@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# Large Assets (GitHub 25MB web limit)
+weights/
+*.zip
+*.pth
+*.index
+
+# Only ignore SPECIFIC large audio files if they are over 25MB in the root
+# The files in the audio/ folder under 25MB will now be uploaded
+output.wav
+output_pro.wav
+rvc_clean_output.wav
+
+# Ignore system files
+.DS_Store
+Thumbs.db
