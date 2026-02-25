@@ -1,8 +1,5 @@
 streamlit
 librosa
-torch
-torchaudio
-fairseq
 gudhi
 plotly
 networkx
@@ -11,6 +8,5 @@ scikit-learn
 soundfile
 numpy
 matplotlib
-faiss-cpu
 praat-parselmouth
 pyworld
