@@ -2,7 +2,6 @@
 
 A Unified Topological Framework for Neural Vocal Reconstruction. This tool analyzes AI-generated vocals using Sheaf Theory, Persistent Homology (TDA), and Non-Negative Matrix Factorization (NMF) to detect artifacts and ensure structural integrity.
 
-## 🚀 Quick Start
 
 1. **Install Dependencies**:
    ```bash
@@ -14,7 +13,7 @@ A Unified Topological Framework for Neural Vocal Reconstruction. This tool analy
    python -m streamlit run app.py
    ```
 
-## 🛠 Features
+## Features
 
 - **Topological Analysis**: Uses GUDHI for Persistent Homology to identify spectral holes and fragmentation.
 - **Sheaf Gluing Index**: A proprietary metric (0-100%) measuring the consistency of the vocal manifold.
@@ -22,7 +21,7 @@ A Unified Topological Framework for Neural Vocal Reconstruction. This tool analy
 - **Benchmark Mode**: Compare the Sheaf Engine (RMVPE) against standard Harvest/Crepe baselines.
 - **Presentation Mode**: Streamlined UI for quick pitches and jury demonstrations.
 
-## 📁 Project Structure
+## Project Structure
 
 - `app.py`: Main Streamlit Command Center.
 - `analysis.py`: Core mathematical engine (TDA, Sheaf Graph, NMF).
@@ -31,7 +30,7 @@ A Unified Topological Framework for Neural Vocal Reconstruction. This tool analy
 - `audio/`: Directory for input vocal profiles.
 - `weights/`: RVC model weights and index files.
 
-## 📊 Technical Metrics
+## Technical Metrics
 
 - **MCD**: Mel-Cepstral Distortion (Timbral Match).
 - **Phase Coherence**: Deviance in STFT phase alignment.
